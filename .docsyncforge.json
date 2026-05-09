@@ -1,0 +1,29 @@
+{
+  "source_dirs": [
+    "src",
+    "lib",
+    "app"
+  ],
+  "doc_dirs": [
+    "docs",
+    "README.md"
+  ],
+  "ignore_patterns": [
+    "*.pyc",
+    "*.min.js",
+    "node_modules/*",
+    ".git/*"
+  ],
+  "watch_extensions": [
+    ".py",
+    ".js",
+    ".ts",
+    ".java",
+    ".go",
+    ".rs"
+  ],
+  "sync_targets": [
+    "local"
+  ],
+  "auto_sync": false
+}
